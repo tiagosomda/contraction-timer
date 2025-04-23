@@ -1,5 +1,20 @@
 import { color, fontSize, pxToRem, spacing } from '../../../theme/helpers/theme.helpers';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const pulsate = keyframes`
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+`;
 
 export const StyledContraction = styled.li`
   display: flex;
@@ -18,6 +33,7 @@ export const StyledContraction = styled.li`
     height: ${pxToRem(20)};
     border-radius: 50%;
     background-color: ${color('neutralMin')};
+    animation: ${pulsate} 1.5s infinite;
   }
 `;
 
