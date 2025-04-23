@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/contraction-timer/static/js/main.9189bbea.js",
+    "main.js": "/contraction-timer/static/js/main.4780f242.js",
     "index.html": "/contraction-timer/index.html",
-    "main.9189bbea.js.map": "/contraction-timer/static/js/main.9189bbea.js.map"
+    "main.4780f242.js.map": "/contraction-timer/static/js/main.4780f242.js.map"
   },
   "entrypoints": [
-    "static/js/main.9189bbea.js"
+    "static/js/main.4780f242.js"
   ]
 }
