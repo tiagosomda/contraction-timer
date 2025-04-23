@@ -12,7 +12,16 @@ export const StyledInterval = styled.li`
     position: absolute;
     top: 0;
     bottom: 0;
+    left: ${pxToRem(6)};
+    border: ${borderWidth('l')} solid ${color('neutralMin')};
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
     left: ${pxToRem(8)};
-    border-left: ${borderWidth('l')} solid ${color('neutralMin')};
+    border: ${borderWidth('m')} solid ${color('rest')};
   }
 `;
