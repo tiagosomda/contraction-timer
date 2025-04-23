@@ -21,3 +21,7 @@ export const Average: React.FC<Props> = ({ type, duration }) => {
     </StyledAverage>
   );
 };
+
+Average.defaultProps = {
+  duration: 0,
+};

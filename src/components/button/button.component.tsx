@@ -25,3 +25,9 @@ export const Button: React.FC<Props> = ({
     <StyledLabel>{label}</StyledLabel>
   </StyledButton>
 );
+
+Button.defaultProps = {
+  disabled: false,
+  icon: undefined,
+  type: ButtonType.Default,
+};

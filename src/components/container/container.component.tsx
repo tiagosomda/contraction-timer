@@ -9,3 +9,8 @@ interface Props {
 export const Container: React.FC<Props> = ({ children, fullHeight = false, padded = false }) => (
   <StyledContainer fullHeight={fullHeight} padded={padded}>{children}</StyledContainer>
 );
+
+Container.defaultProps = {
+  fullHeight: false,
+  padded: false,
+};
