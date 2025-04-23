@@ -8,7 +8,7 @@ const pulsate = keyframes`
   }
   50% {
     transform: scale(1.13);
-    opacity: 0.6;
+    opacity: 0.8;
   }
   100% {
     transform: scale(1);
@@ -32,9 +32,21 @@ export const StyledContraction = styled.li`
     width: ${pxToRem(20)};
     height: ${pxToRem(20)};
     border-radius: 50%;
-    background-color: ${color('neutralMin')};
-    animation: ${pulsate} 1.8s infinite;
+    background-color: ${color('neutralMin75')};
   }
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: ${pxToRem(3)};
+    left: ${pxToRem(3)};
+    width: ${pxToRem(14)};
+    height: ${pxToRem(14)};
+    border-radius: 50%;
+    background-color: ${color('contraction')};
+    animation: ${pulsate} 1.8s infinite; 
+  }  
 `;
 
 export const StyledDuration = styled.div`
