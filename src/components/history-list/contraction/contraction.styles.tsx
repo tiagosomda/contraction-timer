@@ -7,7 +7,7 @@ const pulsate = keyframes`
     opacity: 1;
   }
   50% {
-    transform: scale(1.15);
+    transform: scale(1.13);
     opacity: 0.6;
   }
   100% {
@@ -33,7 +33,7 @@ export const StyledContraction = styled.li`
     height: ${pxToRem(20)};
     border-radius: 50%;
     background-color: ${color('neutralMin')};
-    animation: ${pulsate} 1.5s infinite;
+    animation: ${pulsate} 1.8s infinite;
   }
 `;
 
