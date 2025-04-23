@@ -14,5 +14,6 @@ export const StyledInterval = styled.li`
     bottom: 0;
     left: ${pxToRem(8)};
     border-left: ${borderWidth('l')} solid ${color('neutralMin')};
+    border-left-color: ${color('rest')}; // Updated to match Rest color
   }
 `;

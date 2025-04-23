@@ -17,7 +17,7 @@ export const StyledContraction = styled.li`
     width: ${pxToRem(20)};
     height: ${pxToRem(20)};
     border-radius: 50%;
-    background-color: ${color('neutralMin')};
+    background-color: ${color('contraction')};
   }
 `;
 
