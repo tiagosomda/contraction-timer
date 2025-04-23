@@ -2,7 +2,7 @@
 
 A minimalist web app for timing and tracking labour contractions.
 
-![App screenshots](docs/app.png)
+![App screenshots](app.png)
 ## Try it out
 
 https://contractions.netlify.app
