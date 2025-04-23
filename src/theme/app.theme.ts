@@ -24,9 +24,9 @@ export const appTheme: Theme = {
     l: '768px',
   },
   color: {
-    contraction: '#ba125e',
+    contraction: '#D6589F',
     ready: '#008571',
-    rest: '#107cb1',
+    rest: '#4793AF',
     neutralMin: '#ffffff',
     neutralMin25: 'rgba(255, 255, 255, 0.25)',
     neutralMin50: 'rgba(255, 255, 255, 0.5)',
